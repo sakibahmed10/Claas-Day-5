@@ -1,0 +1,52 @@
+ /* For Responsive Start */
+ @media only screen and (max-width: 600px){
+    .slider{
+        width: 100%;
+    }
+    .slider h1{
+        font-size: 18px;
+    }
+    .slider p{
+        left: 35%;
+        width: 250px;
+    
+    } 
+    .cont{
+        width: 100%;
+    
+    }
+    .menu ul li a{
+        
+        font-size: 12px;
+        }
+        /* Hero Part Start */
+ .hero{
+    width: 100%; 
+ }
+ span{
+    color: blueviolet;
+ }
+ .service-box{
+    margin-top: 30px;
+ 
+    grid-template-columns: repeat(auto-fit, minmax(180px,Auto));
+   
+ }
+ .card{
+    
+    padding: 15px;
+ }
+ .card a{
+    padding: 6px;
+ }
+ .card h1{
+    font-style: 18px;
+ }
+ .card p{
+    font-size: 10px;
+ }
+ /* Hero Part End */
+
+}
+
+/* For Responsive End */

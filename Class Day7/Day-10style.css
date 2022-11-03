@@ -1,0 +1,646 @@
+.cont{
+    width: 1200px;
+    background: rgb(42, 158, 42);
+     height: 300px;
+     margin: 0 auto;
+ }
+ .head{
+     width: 100%;
+     height: 100px;
+     background: rgb(104, 141, 34);
+ }
+ .logo{
+     padding: 20px;
+     float: left;
+ }
+ .logo img{
+    width: 60px;
+    height: 60px;
+ }
+ .logo p{
+    float:right;
+    padding-left: 10px;
+    font-size: 20px;
+    color: tomato;
+ }
+
+ .menu{
+     float: right;
+ }
+ .menu ul, .card-1 ul{
+     list-style: none;
+ }
+ .menu ul li{
+      display: inline-block;
+      padding-top: 20px;
+ }
+ .menu ul li a, .card-1 ul li a{
+     text-decoration: none;
+     padding-right: 30px;
+     font-size: 20px;
+ }
+ .menu ul li a:hover{
+     background: rgb(238, 97, 97);
+     padding: 1opx;
+ 
+ }
+ /* Slider Part Start  */
+ /*  */
+ .slider{
+     width: 1200px;
+     margin: 0 auto;
+     background:url(./images/village.jpg);
+     /* background:linear-gradient(rgba(165, 105, 189,0.8),rgb(61, 99, 146,0.8)), url(./images/dmpig1.png); */
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 40vh;   
+ }
+ .slider h1{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.slider p{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+.slider a{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    text-decoration: none;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    background: aqua;
+    color: rgb(18, 64, 148);
+}
+ 
+ /* Slider Part End  */
+ /* Hero Part Start */
+ .hero{
+    width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+ }
+ span{
+    color: blueviolet;
+ }
+ .card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+ }
+
+ .service-box{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px,Auto));
+    gap: 5px;
+ }
+ .card{
+    background: rgb(95, 241, 229);
+    padding: 15px;
+ }
+ .card a{
+    margin-top: 10px;
+    text-decoration: none;
+    background: rgb(74, 35, 247);
+    border: 1px solid gold;
+    padding: 10px 15px;
+ }
+ /* Hero Part End */
+ /* Footer Part Start */
+ .footer-box{
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(260px,Auto));
+   gap: 5px;
+}
+
+
+
+
+ .footer-box .card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ }
+ .footer-main .card{
+    background: rgb(69, 238, 114);
+ }
+ .footer-box{
+    display: grid;
+    grid-template-columns: repeat(autu-fit,minmax(180px,auto));
+    gap: 5px;
+ }
+ .footer-bottom{
+   width: 1000px;
+   margin: 0 auto;
+   background: rgb(158, 151, 151);
+   height: 50px;
+   text-align: center;
+   line-height: 50px;
+ }
+ .social{
+   display: grid;
+   grid-template-rows: repeat(auto-fit,minmax(180px,auto));
+ }
+ .social img{
+  height: 25px;
+  width: 25px;
+ margin-right: 10px;
+ position: relative;
+ top: 9px;
+ }
+ .social a{
+   position: relative;
+   left: 30px;
+ }
+ .social a:hover{
+   color: rgb(224, 140, 226);
+ }
+ .social h1{
+   text-align: center;
+   color: rgb(243, 108, 108);
+ }
+ /* Footer Part End */
+
+ /* Animate Part Start */
+ .animate{
+   animation: 10s move linear infinite;
+ }
+ @keyframes move{
+   0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+ }
+ .animate1{
+   animation: 6s move linear infinite;
+ }
+ @keyframes move{
+   0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+ }
+ /* Animate Part End */
+ /* Extra Part Start */
+ .extra-box{
+   width: 1200px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(290px,auto));
+   gap: 5px;
+ }
+ .block{
+   padding: 20px;
+   background: rgb(65, 61, 61);
+ }
+ .block img{
+   width: 25px;
+   height: 25px;
+ }
+ /* Extra Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

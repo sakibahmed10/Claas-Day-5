@@ -1,0 +1,202 @@
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+}
+.head{
+    width: 100%;
+    height: 100px;
+   background-color: rgb(28, 247, 28);
+}
+.logo{
+    padding: 5px;
+    float: left;
+}
+.logo p{
+    float: right;
+    padding-left: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+}
+.menu{
+    float: right;
+    padding-right: 20px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    padding-top: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 25px;
+}
+.menu ul li a:hover{
+    background: transparent;
+    padding: 10px;
+}
+/* slider part start */
+.slider{
+    width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(15, 147, 5, 0.988),rgba(120, 23, 159, 0.5), rgba(14, 178, 44, 0.5)),url(./Images/village.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 50vh;
+}
+.slider h1{
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    text-align: center;
+    color: white;
+}
+.slider p{
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    text-align: center;
+    color: white;
+}
+.slider a{
+    text-decoration: none;
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    text-align: center;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    background: aquamarine;
+}
+.slider a:hover{
+    background: aqua;
+    color: white;
+}
+/* slider part end */
+/* hero part start */
+.hero{
+    margin: 20px auto;
+    width: 1200px;
+    height: 60%;
+    text-align: center;
+}
+.hero h3{
+    font-size: 23px;
+}
+span{
+    color: red;
+}
+.service-box{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    gap: 5px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.card{
+    background-color: rgb(129, 243, 205);
+    padding: 12px;
+    border: 2px solid seagreen;
+}
+.card h1{
+    font-size: 22px;
+}
+.card p{
+    font-size: 15px;
+}
+.card a{
+    text-decoration: none;
+    border: 1px solid blue;
+    background: rgb(26, 194, 223);
+    padding: 9px;
+    border-radius: 30%;
+}
+.card a:hover{
+    background: rgb(30, 252, 178);
+    padding: 10px;
+    border: 1px solid blue;
+}
+/* hero part end */
+/* Footer part start */
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+.sec-card img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+.sec-card{
+    padding: 20px;
+    background: rgb(85, 84, 84);
+}
+.sec-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(33%,auto));
+    gap: .3%;
+}
+.sec-card{
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(15%,auto));
+}
+.sec-card h2{
+    text-align: center;
+    color: rgb(235, 16, 16);
+}
+.sec-card a{
+    position: relative;
+    left: 35%;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(226, 43, 43);
+}
+.box img{
+    border: 1px solid green;
+    padding: 5px;
+}
+.sec-bottom{
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(180, 223, 201);
+    height: 50px;
+    line-height: 50px;
+}
+/* Footer part end */
+/* Animated part start */
+.animate{
+    animation: 5s anmtd linear infinite;
+    position: relative;
+    
+}
+@keyframes anmtd{
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:500px; top:0px;}
+  50%  {background-color:blue; left:900px; top:200px;}
+  75%  {background-color:green; left:100px; top:200px;}
+  100% {background-color:red; left:200px; top:0px;}
+}
+/* Animated part end */
+/* constraction part start*/
+.constract{
+    min-width: 1200px;margin: 10px auto;
+    background-color: rgb(204, 197, 197);
+    height: 100px;
+}
+.constract{
+    color: black; 
+    text-align: center;
+    line-height: 100px;
+}
+/* constraction part end*/
