@@ -1,0 +1,27 @@
+body{
+    background:url(./assets/Images/bg_main.gif) center;
+}
+/* header part start */
+.cont{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+.topbar{
+    height: 30px;
+    background: rgb(221, 38, 221);
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+}
+.header-right p{
+    display: inline-block;
+    border-right: 1px  solid white;
+    padding-right: 10px;
+}
+.header-right a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+/* header part end */
