@@ -1,0 +1,83 @@
+body{
+    background:url(./assets/Images/bg_main.gif) center;
+}
+/* header part start */
+.cont{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+.topbar{
+    height: 30px;
+    background: rgb(114, 75, 114);
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(245, 8, 8);
+}
+.header-right p{
+    display: inline-block;
+    border-right: 1px  solid white;
+    padding-right: 10px;
+}
+.header-right a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+/* header part end */
+/* logo part start */
+.logo{
+    height: 110px;
+    background: rgb(226, 216, 216);
+
+}
+.logo-left{
+    line-height: 110px;
+}
+.logo-search{
+    padding-top: 45px;
+}
+.logo-search button{
+    background: rgb(243, 182, 240);
+    font-size: 14px;
+}
+.logo-right{
+    padding-top: 35px;
+}
+.logo1{
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+.logo1 img{
+    position: relative;
+    top: 16%;
+}
+.logo2{
+    padding-left: 10px;
+}
+.logo2 h5{
+    font-size: 13px;
+    color: #683091;
+}
+input{
+    width: 75%;
+}
+/* logo part end */
+/* menu part start */
+.main-menu a{
+    border-right: 1px solid black;
+}
+.main-menu a:hover{
+    background: rgb(161, 247, 239);
+}
+/* menu part end */
+/* hero part start */
+.banner img{
+    border: 2px solid red;
+    padding: 10px;
+}
+.slider img{
+    height: 300px;
+}
+/* hero part end */
